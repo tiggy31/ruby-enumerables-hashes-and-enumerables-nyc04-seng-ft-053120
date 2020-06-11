@@ -1,7 +1,7 @@
   require "pry"
 Def hello
+ binding.pry
 hash.each do |key, value|
-  binding.pry
   puts "#{key}: #{value}"
 end
 
